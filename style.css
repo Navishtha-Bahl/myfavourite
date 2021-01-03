@@ -1,0 +1,92 @@
+img {
+    border-radius: 50%;
+    border: 10px solid #000000;
+}
+
+body {
+    background-image: radial-gradient(circle, #f09090, #f0899f, #ea85b1, #dc85c4, #c788d7, #a397ef, #70a5fd, #00b2ff, #00c7fe, #00d8e7, #00e5bf, #5bed8e);
+    text-align: center;
+}
+
+p {
+    font-family: "Lobster", cursive;
+    font-size: 20px;
+    color: #00004d;
+    max-width: 800px;
+    margin: 25px auto;
+    line-height: 2;
+    }
+
+h1 {    
+    color: brown;
+    font-family: "Langar", cursive;
+    text-shadow: 4px 4px whitesmoke;
+    font-size: 29px;
+}
+
+.line {
+    border: 5px solid black;
+    background-color: black;
+    width: 90px;
+    height: 1px;
+    margin: 50px auto;
+}
+
+.menue {
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    list-style: none;
+    z-index: 10;
+}
+
+.menue li {
+    float: left;
+    padding: 2px;
+    font-size: 30px;
+    font-family: 'Langar', cursive;
+
+}
+
+.menue li:hover {
+    color: gold;
+    cursor: pointer;
+}
+
+#home {
+    background-image: radial-gradient(circle, #ffb5df, #cf9eca, #a187b0, #776f92, #535872, #535671, #545370, #55516e, #7e6286, #ab7295, #d8849c, #ff9b9b);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    display: table;
+    opacity: 0.8;
+    z-index: 1;
+    font-family: 'Langar', cursive;
+
+}
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+#bio {
+    text-align: center;
+    padding: 700px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-image: radial-gradient(circle, 
+        #eef699,
+        #cce393,
+        #aece8c,
+        #92ba86,
+        #7ba57e,
+        #7ba57e,
+        #7ba57e,
+        #7ba57e,
+        #92ba86,
+        #aece8c,
+        #cce393,
+        #eef699);
+}
